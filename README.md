@@ -44,3 +44,17 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Edits to support apollo
+
+Followed (Both were incomplete or wrong in places):
+
+* https://dev.to/elisealcala/boost-your-productivity-with-apollo-hooks-and-typescript-2ecf
+  * specifically `ApolloProvider` was complaining that client is missing `link`
+* https://www.apollographql.com/docs/react/development-testing/static-typing/
+  * specifically `createHttpLink` error'ed
+
+```
+1) run yarn add apollo-boost @apollo/react-hooks apollo
+2) Edit files (per diff with this commit)
+```
