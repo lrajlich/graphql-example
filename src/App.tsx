@@ -7,6 +7,7 @@ import {
   InMemoryCache,
   ApolloProvider
 } from "@apollo/client";
+import Characters from "./Characters";
 
 const client = new ApolloClient({
   cache: new InMemoryCache(),
@@ -32,6 +33,7 @@ function App() {
           </a>
         </header>
       </div>
+      <Characters></Characters>
     </ApolloProvider>
   );
 }

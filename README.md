@@ -45,7 +45,7 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-## Edits to support apollo
+# Edits to support apollo
 
 Followed (Both were incomplete or wrong in places):
 
@@ -54,7 +54,16 @@ Followed (Both were incomplete or wrong in places):
 * https://www.apollographql.com/docs/react/development-testing/static-typing/
   * specifically `createHttpLink` error'ed
 
+## First Commit:
 ```
-1) run yarn add apollo-boost @apollo/react-hooks apollo
+1) run 'yarn add apollo-boost @apollo/react-hooks apollo'
 2) Edit files (per diff with this commit)
+```
+
+## Second Commit:
+```
+1) add apollo.config.js and modify package.json
+2) run 'yarn apollo:codegen'
+3) Edit Characters.tsx, App.tsx
+4) Reload application. Now shows query result (json pre block)
 ```
